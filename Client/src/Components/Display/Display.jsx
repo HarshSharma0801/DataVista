@@ -6,11 +6,11 @@ import GetUsers from "../GetTasks/GetTasks";
 const Display = () => {
 
   const navigate = useNavigate();
-  const [isData, setisData] = useState();
+  const [isData, setisData] = useState(false);
   const [Person, SetPerson] = useState();
   useEffect(() => {
     const getUser = () => {
-      const data = JSON.parse(localStorage.getItem("CellUserinfo"));
+      const data =   JSON.parse(localStorage.getItem("CellUserinfo"));
       if (data) {
         const token = data.access;
         const headers = {
@@ -38,7 +38,7 @@ const Display = () => {
   return (
     <>
     <Header/>
-     <GetUsers/>
+    {isData && <GetUsers/>}
     </>
   );
 };
