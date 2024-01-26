@@ -9,6 +9,7 @@ AWS Serverless CRUD Web App , Frontend with Reactjs and Tailwind css , MongoDB s
 
 ## Video
 
+[DataVista.webm](https://github.com/HarshSharma0801/DataVista/assets/121893196/85a169b5-8770-4cda-9e84-413f9d37334d)
 
 
 
