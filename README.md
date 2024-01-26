@@ -22,7 +22,7 @@
 
 `1. Serverless AWS Web App `
 
-`2. 2 Lambda Functions Implemented that performs CRUD `
+`2. Lambda Functions Implemented that performs CRUD `
 
 `3. User data is stored in MongoDB and Tasks Data is stored in AWS DynamoDB`
 
