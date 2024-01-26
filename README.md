@@ -1,5 +1,5 @@
 # DataVista
-
+AWS Serverless CRUD Web App , Frontend with Reactjs and Tailwind css , MongoDB server with Nodejs for Users . Performs All Crud Functions using AWS services such as Lambda , API Gateway , DynamoDB etc .   
 
  ## AWS Backend Link
   [live here](https://dlgil0du4h.execute-api.ap-south-1.amazonaws.com/main)
