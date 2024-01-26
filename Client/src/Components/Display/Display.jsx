@@ -37,8 +37,11 @@ const Display = () => {
   }, []);
   return (
     <>
-    <Header/>
-    {isData && <GetUsers/>}
+    {isData && <>
+      <Header/>
+     <GetUsers/>
+    </>}
+    
     </>
   );
 };
