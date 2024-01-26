@@ -5,22 +5,30 @@ import axios from "axios";
 
 const Layout = (props) => {
   const navigate = useNavigate();
-  const Owner = JSON.parse(localStorage.getItem("CellUserinfo")).info._id;
-
+  const [main , setMain] = useState({
+    owner:props.ownerId,
+    id:props.id
+  })
   const DeleteTask = async () => {
 
-    
+    console.log(main)
+
     try {
+   
+      console.log(main)
       axios
         .delete(
-          "https://dlgil0du4h.execute-api.ap-south-1.amazonaws.com/main",
-          {
-            owner: Owner,
-            id:props.id
+          "https://dlgil0du4h.execute-api.ap-south-1.amazonaws.com/main",{
+            params:{
+              owner:main.owner,
+              id:main.id
+            }
           }
+          
         )
         .then((res) => {
-          props.getUsers();
+          console.log(res.data)
+          props.get();
           setisDelete(false);
         });
     } catch (error) {

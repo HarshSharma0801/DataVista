@@ -48,7 +48,7 @@ useEffect(()=>{
 
                 {User &&
                   User.map((data) => (
-                   <Layout key={data.id} get={getUsers} title={data.title}  description={data.description} dueDate={data.dueDate} id={data.id} />
+                   <Layout key={data.id} get={getUsers} title={data.title}  description={data.description} dueDate={data.dueDate} id={data.id}  ownerId={data.ownerId}/>
                   ))
                 }
                  
