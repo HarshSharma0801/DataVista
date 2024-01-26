@@ -14,8 +14,21 @@
 
 ## Screenshots
 
+![Screenshot (53)](https://github.com/HarshSharma0801/DataVista/assets/121893196/d47d8561-d573-4dbd-8625-052dcdcb2f44)
 
+![Screenshot (52)](https://github.com/HarshSharma0801/DataVista/assets/121893196/95ecd6af-c142-48c3-bc64-e9799474d0de)
 
+![Screenshot (51)](https://github.com/HarshSharma0801/DataVista/assets/121893196/70ba7c98-0028-4fd1-b155-a63807be6485)
+
+![Screenshot (50)](https://github.com/HarshSharma0801/DataVista/assets/121893196/bcf52f3a-a7fd-45bf-9cbf-98dfbdb1a756)
+
+![Screenshot (49)](https://github.com/HarshSharma0801/DataVista/assets/121893196/50db97fd-7b7e-4de0-a461-35923490a717)
+
+![Screenshot (48)](https://github.com/HarshSharma0801/DataVista/assets/121893196/3cd60de2-282f-4c07-a4a9-c8e82eae1fbd)
+
+![Screenshot (47)](https://github.com/HarshSharma0801/DataVista/assets/121893196/61ba2e3a-6798-44a4-bab9-7ebee88d0498)
+
+![Screenshot (46)](https://github.com/HarshSharma0801/DataVista/assets/121893196/82fe77d1-5a95-4a3b-ba69-05e2678334a8)
 
   
 ## Key Features 
