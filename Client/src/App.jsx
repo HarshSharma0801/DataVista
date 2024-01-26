@@ -9,7 +9,7 @@ import CreateTaskForm from "./Components/CreateTask/CreateTask"
 import UpdateTaskForm from "./Components/UpdateTask/UpdateTask"
 function App() {
 
- axios.defaults.baseURL = "http://localhost:5000/"
+ axios.defaults.baseURL = "https://data-vista-backend.vercel.app/"
 
   return (
     <>
